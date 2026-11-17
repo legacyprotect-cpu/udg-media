@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-17",
+  "deal_id": "instacart-free-turkey",
+  "photo": "seasonal",
+  "price": "$8",
+  "hook": {
+    "kicker": "Thanksgiving deal",
+    "l1": "Free turkey?",
+    "big": "$40",
+    "l3": "off your bird"
+  },
+  "deal": {
+    "fig": "$40",
+    "title": "off a turkey on Instacart",
+    "chips": [
+      "Spend $50",
+      "Nov 18 to 22",
+      "From noon ET"
+    ],
+    "fine": "About 10,000 a day while supplies last. One per customer. Participating stores. Checked Nov 17, 2026."
+  },
+  "count": {
+    "big": "12 coupons",
+    "sub": "+ 27 deals checked today",
+    "tiles": [
+      {
+        "cat": "gas",
+        "n": 9
+      },
+      {
+        "cat": "groceries",
+        "n": 9
+      },
+      {
+        "cat": "airfare",
+        "n": 7
+      },
+      {
+        "cat": "seasonal",
+        "n": 11
+      }
+    ]
+  },
+  "vo": {
+    "s1": "Want a free turkey this Thanksgiving? Here's how.",
+    "s2": "From November eighteenth to the twenty-second, Instacart takes up to forty dollars off a turkey when your order hits fifty dollars.",
+    "s3": "It's one of twelve coupons and twenty-seven deals we checked today, on gas, groceries, flights, and the holidays.",
+    "s4a": "Join free at Uncommon Discounts Galore.",
+    "s4b": "Pick your state.",
+    "s4c": "Then unlock every deal and coupon code for eight dollars, one time.",
+    "s5": "Hard times. Great discounts. Link in bio."
+  }
+}

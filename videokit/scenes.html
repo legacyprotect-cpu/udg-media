@@ -1,0 +1,107 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>UDG video scenes</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Big+Shoulders+Display:wght@800;900&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#131A2A;--tag:#FFC629;--paper:#F2F3EF;--muted:#AEB6C7}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--navy);color:var(--paper);font-family:Archivo,sans-serif}
+.scene{position:absolute;inset:0;display:none}
+.on{display:block}
+.disp{font-family:"Big Shoulders Display",sans-serif;font-weight:900;text-transform:uppercase;line-height:.86;letter-spacing:.005em}
+.mono{font-family:"IBM Plex Mono",monospace;font-weight:600;text-transform:uppercase;letter-spacing:.12em}
+.brand{position:absolute;top:150px;left:80px;display:flex;align-items:center;gap:18px;z-index:5}
+.brand svg{width:58px;height:58px;color:var(--paper)}
+.brand b{font:900 40px/0.9 "Big Shoulders Display";text-transform:uppercase;display:block}
+.brand span{font:600 21px/1 "IBM Plex Mono";letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:block;margin-top:6px}
+.stripe{position:absolute;left:0;right:0;bottom:0;height:22px;background:var(--tag)}
+.pill{display:inline-block;background:var(--tag);color:var(--navy);font:700 34px/1 "IBM Plex Mono";letter-spacing:.08em;text-transform:uppercase;padding:16px 26px;border-radius:999px}
+.fine{font:500 27px/1.4 "IBM Plex Mono";color:var(--muted)}
+.fit{white-space:nowrap;overflow:visible}
+/* S1 hook */
+#s1 .wrap{position:absolute;left:80px;right:80px;top:520px}
+#s1 .k{font-size:38px;color:var(--tag);margin-bottom:40px}
+#s1 .l1{font-size:180px}
+#s1 .big{font-size:440px;color:var(--tag);line-height:.8;margin-top:24px;letter-spacing:-.01em;white-space:nowrap}
+#s1 .l3{font-size:160px;margin-top:20px}
+#s1.pre .big,#s1.pre .l3{visibility:hidden}
+/* S2 deal */
+#s2 .photo{position:absolute;left:0;right:0;top:0;height:1080px;overflow:hidden}
+#s2 .photo img{width:100%;height:100%;object-fit:cover}
+#s2 .photo:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(19,26,42,.9) 0,rgba(19,26,42,.35) 20%,rgba(19,26,42,0) 32%,rgba(19,26,42,0) 62%,var(--navy) 100%)}
+#s2 .panel{position:absolute;left:80px;right:140px;top:860px}
+#s2 .fig{font-size:300px;color:var(--tag);line-height:.8;white-space:nowrap}
+#s2 .t{font-size:104px;margin-top:20px}
+#s2 .chips{display:flex;gap:16px;flex-wrap:wrap;margin-top:40px}
+#s2 .chips span{border:4px solid var(--paper);border-radius:999px;padding:14px 26px;font:800 40px/1 Archivo}
+#s2 .fine{margin-top:34px;max-width:860px}
+/* S3 count */
+#s3 .head{position:absolute;left:80px;right:80px;top:300px}
+#s3 .n{font-size:230px;color:var(--tag);line-height:.8;white-space:nowrap}
+#s3 .h{font-size:104px;margin-top:12px}
+#s3 .grid{position:absolute;left:80px;right:140px;top:830px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+#s3 .tile{position:relative;height:300px;border-radius:24px;overflow:hidden}
+#s3 .tile img{width:100%;height:100%;object-fit:cover}
+#s3 .tile:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(10,14,24,.85),rgba(10,14,24,0) 65%)}
+#s3 .tile b{position:absolute;left:22px;bottom:18px;z-index:2;font:900 64px/0.9 "Big Shoulders Display";text-transform:uppercase}
+#s3 .tile i{position:absolute;right:20px;top:18px;z-index:2;font-style:normal}
+#s3 .src{position:absolute;left:80px;right:140px;top:1500px}
+/* S4 how */
+#s4 .head{position:absolute;left:80px;right:80px;top:340px}
+#s4 .h{font-size:150px}
+#s4 .steps{position:absolute;left:80px;right:80px;top:720px;display:flex;flex-direction:column;gap:40px}
+#s4 .st{display:flex;align-items:center;gap:36px;opacity:.16}
+#s4 .st.vis{opacity:1}
+#s4 .num{flex:0 0 150px;height:150px;border-radius:50%;background:var(--tag);color:var(--navy);display:flex;align-items:center;justify-content:center;font:900 100px/1 "Big Shoulders Display"}
+#s4 .tx{font-size:100px}
+#s4 .tx small{display:block;font:700 36px/1.3 Archivo;text-transform:none;color:var(--muted);margin-top:10px;letter-spacing:0}
+#s4 .tx em{font-style:normal;color:var(--tag)}
+#s4 .fine{position:absolute;left:80px;right:80px;top:1460px}
+/* S5 CTA */
+#s5 .wrap{position:absolute;left:80px;right:80px;top:430px}
+#s5 .logo{display:flex;align-items:center;gap:26px;margin-bottom:90px}
+#s5 .logo svg{width:120px;height:120px;color:var(--paper)}
+#s5 .logo b{font:900 92px/0.86 "Big Shoulders Display";text-transform:uppercase;display:block}
+#s5 .logo span{font:600 36px/1 "IBM Plex Mono";letter-spacing:.2em;text-transform:uppercase;color:var(--muted);display:block;margin-top:10px}
+#s5 .h{font-size:200px}
+#s5 .h .y{color:var(--tag);display:block}
+#s5 .cta{margin-top:80px;display:inline-flex;align-items:center;gap:20px;background:var(--tag);color:var(--navy);font:800 64px/1 Archivo;padding:30px 46px;border-radius:20px;box-shadow:10px 10px 0 var(--paper)}
+#s5 .fine{margin-top:56px;font-size:28px}
+</style></head><body>
+<section class="scene" id="s1"><div class="brand"></div><div class="wrap"><p class="mono k" data-k="hook.kicker"></p><p class="disp l1" data-k="hook.l1"></p><p class="disp big fit" data-k="hook.big"></p><p class="disp l3" data-k="hook.l3"></p></div><div class="stripe"></div></section>
+<section class="scene" id="s2"><div class="photo"><img id="s2img" alt=""></div><div class="brand"></div><div class="panel"><p class="disp fig fit" data-k="deal.fig"></p><p class="disp t" data-k="deal.title"></p><div class="chips" id="chips"></div><p class="fine" data-k="deal.fine"></p></div><div class="stripe"></div></section>
+<section class="scene" id="s3"><div class="brand"></div><div class="head"><p class="disp n fit" data-k="count.big"></p><p class="disp h" data-k="count.sub"></p></div><div class="grid" id="grid"></div><p class="fine src">Every deal and coupon lists its sources. Some deals fit more than one category.</p><div class="stripe"></div></section>
+<section class="scene" id="s4"><div class="brand"></div><div class="head"><p class="disp h">How it works</p></div>
+<div class="steps">
+<div class="st" data-step="1"><div class="num">1</div><p class="disp tx">Join free<small>Name, email, state. No card.</small></p></div>
+<div class="st" data-step="2"><div class="num">2</div><p class="disp tx">Pick your state<small>See the deals that reach you.</small></p></div>
+<div class="st" data-step="3"><div class="num">3</div><p class="disp tx">Unlock all <em id="price"></em><small>One time. Every deal and coupon code.</small></p></div>
+</div><p class="fine">All sales final.</p><div class="stripe"></div></section>
+<section class="scene" id="s5"><div class="wrap"><div class="logo"><span class="ico"></span><div><b>Uncommon</b><span>Discounts Galore</span></div></div><p class="disp h">Hard times.<span class="y">Great discounts.</span></p><div class="cta">Link in bio &#8599;</div><p class="fine" id="ctafine"></p></div><div class="stripe"></div></section>
+<script>
+const SPEC = /*SPEC*/{};
+const LOGO = '<svg viewBox="0 0 32 32"><path d="M3 15.6 15.6 3H29v13.4L16.4 29z" fill="#FFC629" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="22.6" cy="9.4" r="2.4" fill="none" stroke="currentColor" stroke-width="2"/></svg>';
+const get = p => p.split(".").reduce((o, k) => (o || {})[k], SPEC);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const LABEL = { gas: "Gas", groceries: "Groceries", airfare: "Airfare", seasonal: "Holidays" };
+const POS = { gas: "30% 50%", groceries: "50% 85%", airfare: "50% 55%", seasonal: "50% 50%" };
+document.querySelectorAll("[data-k]").forEach(el => { el.textContent = get(el.dataset.k) || ""; });
+document.querySelectorAll(".brand").forEach(b => b.innerHTML = LOGO + '<div><b>Uncommon</b><span>Discounts Galore</span></div>');
+document.querySelector("#s5 .ico").outerHTML = LOGO;
+const ph = SPEC.photo || "groceries";
+const img = document.getElementById("s2img"); img.src = "img/" + ph + ".jpg"; img.style.objectPosition = ph === "groceries" ? "50% 100%" : (POS[ph] || "50% 50%");
+document.getElementById("chips").innerHTML = ((SPEC.deal || {}).chips || []).map(c => `<span>${esc(c)}</span>`).join("");
+document.getElementById("grid").innerHTML = ((SPEC.count || {}).tiles || []).map(t => `<div class="tile"><img src="img/${esc(t.cat)}.jpg" style="object-position:${POS[t.cat] || "50% 50%"}"><i class="pill">${esc(t.n)}</i><b>${esc(LABEL[t.cat] || t.cat)}</b></div>`).join("");
+document.getElementById("price").textContent = SPEC.price || "";
+document.getElementById("ctafine").textContent = `Join free. ${SPEC.price || ""} once unlocks every deal and coupon code.`;
+window.fitAll = () => document.querySelectorAll(".scene.on .fit").forEach(el => {
+  let fs = parseFloat(getComputedStyle(el).fontSize);
+  while (el.scrollWidth > el.clientWidth + 1 && fs > 60) { fs -= 4; el.style.fontSize = fs + "px"; }
+});
+window.show = (id, step) => {
+  document.querySelectorAll(".scene").forEach(s => s.classList.toggle("on", s.id === id));
+  document.getElementById("s1").classList.toggle("pre", id === "s1" && step === 1);
+  document.querySelectorAll("#s4 .st").forEach(s => s.classList.toggle("vis", +s.dataset.step <= (step || 0)));
+  window.fitAll();
+};
+</script>
+</body></html>
