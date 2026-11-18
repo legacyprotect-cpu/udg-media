@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-18",
+  "deal_id": "circlek-fuelday-nov19",
+  "photo": "gas",
+  "price": "$8",
+  "hook": {
+    "kicker": "Thursday only",
+    "l1": "Up to",
+    "big": "40¢",
+    "l3": "off a gallon"
+  },
+  "deal": {
+    "fig": "40¢",
+    "title": "off a gallon at Circle K",
+    "chips": [
+      "Thu, Nov 19",
+      "Join free first",
+      "35 gallon limit"
+    ],
+    "fine": "Up to 40¢ off on all grades, diesel included, at participating stations. Checked Nov 18, 2026."
+  },
+  "count": {
+    "big": "16 coupons",
+    "sub": "+ 29 deals checked today",
+    "tiles": [
+      {
+        "cat": "gas",
+        "n": 10
+      },
+      {
+        "cat": "groceries",
+        "n": 10
+      },
+      {
+        "cat": "airfare",
+        "n": 7
+      },
+      {
+        "cat": "seasonal",
+        "n": 12
+      }
+    ]
+  },
+  "vo": {
+    "s1": "Filling up this week? Do it on Thursday.",
+    "s2": "On Thursday, November nineteenth, Circle K takes up to forty cents off a gallon at participating stations. Just join its free Inner Circle program first.",
+    "s3": "It's one of sixteen coupons and twenty-nine deals we checked today, on gas, groceries, flights, and the holidays.",
+    "s4a": "Join free at Uncommon Discounts Galore.",
+    "s4b": "Pick your state.",
+    "s4c": "Then unlock every deal and coupon code for eight dollars, one time.",
+    "s5": "Hard times. Great discounts. Link in bio."
+  }
+}
