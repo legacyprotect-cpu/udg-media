@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-19",
+  "deal_id": "chevron-texaco-rewards",
+  "photo": "gas",
+  "price": "$8",
+  "hook": {
+    "kicker": "Today's top deal",
+    "l1": "Join free, get",
+    "big": "25¢",
+    "l3": "off a gallon"
+  },
+  "deal": {
+    "fig": "25¢",
+    "title": "off a gallon at Chevron",
+    "chips": [
+      "Join free",
+      "5 fill-ups",
+      "Up to 25 gal"
+    ],
+    "fine": "New members only. Use within 90 days at participating Chevron and Texaco stations. Checked Nov 19, 2026."
+  },
+  "count": {
+    "big": "25 coupons",
+    "sub": "+ 30 deals checked today",
+    "tiles": [
+      {
+        "cat": "gas",
+        "n": 11
+      },
+      {
+        "cat": "groceries",
+        "n": 10
+      },
+      {
+        "cat": "airfare",
+        "n": 7
+      },
+      {
+        "cat": "seasonal",
+        "n": 12
+      }
+    ]
+  },
+  "vo": {
+    "s1": "Filling up at Chevron or Texaco? Don't skip this.",
+    "s2": "Join Chevron Texaco Rewards for free, and save twenty-five cents a gallon on your next five fill-ups within ninety days.",
+    "s3": "It's one of twenty-five coupons and thirty deals we checked today, on gas, groceries, flights, and the holidays.",
+    "s4a": "Join free at Uncommon Discounts Galore.",
+    "s4b": "Pick your state.",
+    "s4c": "Then unlock every deal and coupon code for eight dollars, one time.",
+    "s5": "Hard times. Great discounts. Link in bio."
+  }
+}
