@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-22",
+  "deal_id": "thanksgiving",
+  "photo": "seasonal",
+  "price": "$8",
+  "hook": {
+    "kicker": "Thanksgiving deal",
+    "l1": "Feed 10 for",
+    "big": "$35",
+    "l3": "at Walmart"
+  },
+  "deal": {
+    "fig": "$35",
+    "title": "Thanksgiving dinner for 10",
+    "chips": [
+      "At Walmart",
+      "Feeds 10",
+      "Prices vary"
+    ],
+    "fine": "Items and prices vary by store. 8 more grocers have meal bundles too. Checked Nov 22, 2026."
+  },
+  "count": {
+    "big": "32 coupons",
+    "sub": "+ 30 deals checked today",
+    "tiles": [
+      {
+        "cat": "gas",
+        "n": 10
+      },
+      {
+        "cat": "groceries",
+        "n": 11
+      },
+      {
+        "cat": "airfare",
+        "n": 7
+      },
+      {
+        "cat": "seasonal",
+        "n": 15
+      }
+    ]
+  },
+  "vo": {
+    "s1": "Hosting Thanksgiving for ten? Here's dinner for thirty-five dollars.",
+    "s2": "Walmart's holiday meal basket feeds ten for thirty-five dollars, its lowest price since twenty twenty-two. Items and prices vary by store.",
+    "s3": "It's one of thirty-two coupons and thirty deals we checked today, on gas, groceries, flights, and the holidays.",
+    "s4a": "Join free at Uncommon Discounts Galore.",
+    "s4b": "Pick your state.",
+    "s4c": "Then unlock every deal and coupon code for eight dollars, one time.",
+    "s5": "Hard times. Great discounts. Link in bio."
+  }
+}
