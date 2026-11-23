@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-23",
+  "deal_id": "seven-eleven-7now-thanksgiving",
+  "photo": "groceries",
+  "price": "$8",
+  "hook": {
+    "kicker": "Thanksgiving Day",
+    "l1": "7-Eleven takes",
+    "big": "$20",
+    "l3": "off a $30 order"
+  },
+  "deal": {
+    "fig": "$20",
+    "title": "off $30 on Thanksgiving",
+    "chips": [
+      "Nov 26 only",
+      "Spend $30",
+      "7NOW app"
+    ],
+    "fine": "Plus a free large pizza Nov 27 and $25 off $50 Nov 30, delivery only. Participating stores in 7NOW areas. Checked Nov 23, 2026."
+  },
+  "count": {
+    "big": "32 coupons",
+    "sub": "+ 30 deals checked today",
+    "tiles": [
+      {"cat": "gas", "n": 9},
+      {"cat": "groceries", "n": 11},
+      {"cat": "airfare", "n": 8},
+      {"cat": "seasonal", "n": 17}
+    ]
+  },
+  "vo": {
+    "s1": "Forgot something for Thanksgiving? Here's twenty dollars off.",
+    "s2": "On Thanksgiving Day only, Seven-Eleven's seven now app takes twenty dollars off orders of thirty dollars or more, at participating stores.",
+    "s3": "It's one of thirty-two coupons and thirty deals we checked today, on gas, groceries, flights, and the holidays.",
+    "s4a": "Join free at Uncommon Discounts Galore.",
+    "s4b": "Pick your state.",
+    "s4c": "Then unlock every deal and coupon code for eight dollars, one time.",
+    "s5": "Hard times. Great discounts. Link in bio."
+  }
+}
