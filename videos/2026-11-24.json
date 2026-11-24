@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-24",
+  "deal_id": "walmart-holiday-meal-basket-2026",
+  "photo": "groceries",
+  "price": "$8",
+  "hook": {
+    "kicker": "Today's top deal",
+    "l1": "Feed 10 for",
+    "big": "$35",
+    "l3": "until Dec 24"
+  },
+  "deal": {
+    "fig": "$35",
+    "title": "Walmart holiday meal basket",
+    "chips": [
+      "Feeds up to 10",
+      "26 items",
+      "Through Dec 24"
+    ],
+    "fine": "Not in AK, HI, OK or WI, and prices vary by store. Checked Nov 24, 2026."
+  },
+  "count": {
+    "big": "37 coupons",
+    "sub": "+ 30 deals checked today",
+    "tiles": [
+      {
+        "cat": "gas",
+        "n": 10
+      },
+      {
+        "cat": "groceries",
+        "n": 11
+      },
+      {
+        "cat": "airfare",
+        "n": 7
+      },
+      {
+        "cat": "seasonal",
+        "n": 18
+      }
+    ]
+  },
+  "vo": {
+    "s1": "Feeding ten this holiday season? Do it for thirty-five dollars.",
+    "s2": "Walmart's twenty-six item holiday meal basket feeds up to ten people for thirty-five dollars, in stores and online through December twenty-fourth. Prices vary by store.",
+    "s3": "It's one of thirty-seven coupons and thirty deals we checked today, on gas, groceries, flights, and the holidays.",
+    "s4a": "Join free at Uncommon Discounts Galore.",
+    "s4b": "Pick your state.",
+    "s4c": "Then unlock every deal and coupon code for eight dollars, one time.",
+    "s5": "Hard times. Great discounts. Link in bio."
+  }
+}
