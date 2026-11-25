@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-25",
+  "deal_note": "Amazon $10 off $20 perishable groceries code (database id left out because it contains the coupon code word)",
+  "photo": "groceries",
+  "price": "$8",
+  "hook": {
+    "kicker": "Today's top deal",
+    "l1": "Amazon grocery",
+    "big": "$10",
+    "l3": "off $20 of fresh"
+  },
+  "deal": {
+    "fig": "$10",
+    "title": "Off $20 of Amazon groceries",
+    "chips": [
+      "Spend $20",
+      "Through Dec 30",
+      "One per account"
+    ],
+    "fine": "Fresh and frozen items sold by Amazon.com. May be limited to select accounts. Checked Nov 25, 2026."
+  },
+  "count": {
+    "big": "38 coupons",
+    "sub": "+ 30 deals checked today",
+    "tiles": [
+      {
+        "cat": "gas",
+        "n": 10
+      },
+      {
+        "cat": "groceries",
+        "n": 10
+      },
+      {
+        "cat": "airfare",
+        "n": 8
+      },
+      {
+        "cat": "seasonal",
+        "n": 18
+      }
+    ]
+  },
+  "vo": {
+    "s1": "Buying groceries this week? Take ten dollars off.",
+    "s2": "Amazon has a code for ten dollars off twenty dollars of fresh and frozen groceries sold by Amazon, through December thirtieth. One per account, and it may not work on every account.",
+    "s3": "It's one of thirty-eight coupons and thirty deals we checked today, on gas, groceries, flights, and seasonal savings.",
+    "s4a": "Join free at Uncommon Discounts Galore.",
+    "s4b": "Pick your state.",
+    "s4c": "Then unlock every deal and coupon code for eight dollars, one time.",
+    "s5": "Hard times. Great discounts. Link in bio."
+  }
+}
